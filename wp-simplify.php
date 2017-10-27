@@ -6,6 +6,10 @@
  * Author: OSW3
  * Author URI: http://osw3.net
  * Description: Clean up the Control Panel.
+ * 
+ * 1) Place "wp-simplify.php" at the root of your wordpress project
+ * 2) Add "require_once(ABSPATH . 'wp-simplify.php');" just after "require_once(ABSPATH . 'wp-settings.php');"
+ * 3) Go to : http://your-website.com/wp-admin/options-general.php?page=simplify
  */
 
 
